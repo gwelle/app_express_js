@@ -4,7 +4,7 @@
   "description": "Ce dossier Repository est lié au cours [Construire des API RESTful avec Node.js][lil-course-url]. Le cours entier est disponible sur [LinkedIn Learning](https://www.linkedin.com/learning/construire-des-api-restful-avec-node-js).",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/LinkedInLearning/Construire_API_RESTFul_Node.js-3349086#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   }
 }
